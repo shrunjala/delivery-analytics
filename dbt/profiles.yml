@@ -1,0 +1,7 @@
+delivery_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/raw_orders.duckdb
+      schema: analytics

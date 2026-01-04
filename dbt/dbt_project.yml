@@ -1,0 +1,12 @@
+name: delivery_analytics
+version: "1.0"
+profile: delivery_analytics
+
+model-paths: ["models"]
+
+models:
+  delivery_analytics:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
